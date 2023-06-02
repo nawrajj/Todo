@@ -7,6 +7,8 @@ box-sizing: border-box;
 html{
 scroll-behavior:smooth;
 
+
+
 }
 body{
 font-family: sans-serif;
@@ -15,7 +17,6 @@ background-size: cover;
 background-position: center;
 height: 109vh;
 scroll-behavior:smooth;
-
 
 }
 
@@ -161,7 +162,7 @@ font-weight: bold;
 text-align:centre;
   }
 Form{
-font-size:42px;
+font-size:40px;
 text-align:centre;
 background-color:yellow;
 }
@@ -208,7 +209,7 @@ size:30px;
 }
 
 h4{
-  font-size: small;
+  font-size:medium;
   color: gold;
 }
 table, th, td {
@@ -230,4 +231,51 @@ marquee{
 }
 n{
   color:black
+}
+section1{
+  background: black;
+  color: white;
+  text-align: center;
+ 
+}
+.fa {
+  padding: 20px;
+  font-size: 35px;
+  width: 63px;
+  text-align: center;
+  text-decoration:dashed;
+  margin: 5px 2px;
+}
+.fa-facebook-square{
+  padding: 20px;
+  font-size: 30px;
+  width: 10px;
+  
+  text-align: center;
+  text-decoration:dashed;
+  margin: 5px 2px;
+}
+.fa-facebook-square{
+
+  color: white;
+
+}
+.fa-facebook{
+  background: #3b5998;
+  color: white;
+}
+.fa-youtube{
+  background: #bb0000;
+}
+.fa-twitter{
+  background: #55acee;
+}
+.fa-instagram{
+  background:black;
+}
+.fa-whatsapp{
+  background:green;
+}
+.fa-google{
+  background:black;
 }
