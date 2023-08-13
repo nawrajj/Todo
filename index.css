@@ -1,281 +1,192 @@
+
 *{
-  margin:0;
-padding:0;
-text-decoration:none;
-box-sizing: border-box;
-}
-html{
-scroll-behavior:smooth;
+    margin:0;
+    padding:0;
 
+    }
+    body{
+       
+            font-family: sans-serif;
+            background-size: cover;
+            background-position: center;
+          
+            background-color:#e1d9d1;
+            scroll-behavior:smooth;
+          
+    }
+    .mob{
+        height: 39px;
+        background-color:rgb(2, 139, 18);
+        position:fixed;
+        width: 100%;
 
-
-}
-body{
-font-family: sans-serif;
-background-color:mediumvioletred;
-background-size: cover;
-background-position: center;
-height: 109vh;
-scroll-behavior:smooth;
-
-}
-
-sectionfive{
-  font-variant: normal ;
-}
-marquee{
-
-  width: 50PX;
-  background-color:white;
-}
-N{
-  width: 87%;
-  color: yellow;
+    }
+.desk{
+    height: 39px;
+    background-color:rgba(162, 1, 199, 0.952);
+    width: 100%;
+    position: fixed;
 }
 
-nav{
-  position: fixed;
-
+.container nav.desk
+.container nav.mob{
+    width:100%;
+    height:50px; 
+    
+    }
+label{
+    font-size: xx-large;
+    color: gold;
+    font-weight: bolder;
 }
-nav ul{
-list-style: none;
-float: right;
 
-}
-nav ul li{
-  display: inline-block;
-  line-height: 80px;
+nav.desk ul li a {
+ padding: 7px;
+ line-height: 40px;
+color: white;
+        }
 
-}
+        .desk ul {
+     float:right ;
+          
+                }
+.desk ul li{
+    
+    font-size:larger;
+   display: inline-block;
+    text-transform:uppercase;
+    cursor:pointer;
+    transition:all 0.5s ease;
+    }
+
+
+nav  li:hover{
+
+   color: black;
+    background-color:#9d037ce9;
+    font-size:20px;
+    
+    }
+   
+        
+   
+    nav  li a:hover{
+
+   
+        background-color:red;
+        color: black;
+        font-size:20px;
+        
+        }
+
 nav ul li a{
-  color:black;
-  font-size:larger;
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+    
+    }
 
-  padding: 7px;
+nav.mob,
+.toggle{
+    display:none;
+    position:static;
+    }
 
-}
-nav ul li  a:hover{
-  background-color: white;
+@media screen and (max-width:576px){
 
-}
+nav.desk{    
+    display:none;
+    }
 
-nav .logo{
-  font-size:45px;
-  color: gold;
-  font-style: italic;
-  font-weight: bold;
-  line-height: 80px;
+nav.mob,
+.toggle{
+    display:inline-block;   
 
-
-}
-nav{
-  width: 100%;
-  height: 62px;
-  background-color: blue;
-}
-nav o{
-  font-size: medium;
-  color: aliceblue;
-  font-size: medium;
-  float:right;
-}
-#mySidebar{
-  background-color: black;
-  position:fixed;
-  width:50px;
-  height: 250px;
-}
-#mySidebar li{
-  list-style:none ;
-  
-}
-
-a.active{
-background-color:blue;
-padding: 5px;
-display: inline-block;
-}
-
-li a.contact{
-border-bottom:1px solid rgba(0,0,0,.5) ;
-}
-nav li a.contact{
-border-bottom: 1px solid rgba(255,255,255,.1);
-}
-#section {
-  display: flex;
-  padding:10%;
-margin-down:5px;
-  align-content: center;
-height:100%;
-width:100%;
-  
-}
-
-z{
-  font-style:italic;
-  color:whitesmoke;
-  font-size:20px;
-  font-weight: bold;
-}
-K{
-  font-style:italic;
-  font-weight: bold;
-  color: gold;
-  background-color:black;
-  font-size:16px;
-}
-sectionone{
-  display: flex;
- background-image:img src=https://i.ibb.co/yfv3NCw/291889371-413306454154723-2830275642337202691-n.jpg;
-width:100%;
-align-content:center;   
-height:100%;
-}
-p{
-font-weight: bold;
-font-size:30px;
-color:gold;
-}
-h1{
-padding: 25px 0 5px 0px;
-color: black;
-font-size:50px;
-font:bold;
-font-style: italic;
-font-family:arial;
-margin-right: 1px;
-
-}
-l{
-font-size: 30px;
-color:white;
-font-weight: bold;
-padding-left:20px;
-text-align:centre;
-
-}
-li{
-font-size: 25px;
-color:greenyellow;
-font-weight: bold;
-text-align:centre;
-  }
-Form{
-font-size:40px;
-text-align:centre;
-background-color:yellow;
-}
-h3{
-background-color:black;
-}
-BR{
-font-size:33px;
-}
-input{
-font-size:32px;
-box-size:32px;
-
-}
-radio button{
-font-size:32px;
-}
-h2{
-color:rgb(238, 230, 11);
-
-
-}
-
-search button{
-font-size:40px;
-}
-
-a{
-color:orange ;
-font-size:30px;
-font-family:arrial;
-}
-img{
-align-items:center;
-position:center;
-
-}
-table{
-  font-size: larger;
-}
-href{
-size:30px;
-
-}
-
-h4{
-  font-size:medium;
-  color: gold;
-}
-table, th, td {
-  border: 1px solid black;
-  border-collapse: collapse;
-}
-th{
-  background-color:black;
-  font-style: italic;
-  COLOR:RED;
-}
-sectionseven{
-  color:black;
-  width: 100%;
-}
-marquee{
-  font-size:18px;
-  width: 94%;
-}
-n{
-  color:black
-}
-section1{
-  background: black;
-  color: white;
-  text-align: center;
  
+    }
+    
+.toggle{
+
+    float:right;
+    font-size:38px;
+    margin-right:15px;
+    margin-top:-1px;
+
+    }
+    
+.toggle.fa-bars,
+.toggle.fa-times{
+
+    icon-size:35px;
+    color:black;
+    cursor:pointer;
+    
+    
+    }
+    
+.mob ul{
+    margin-top:10px;
+    background:blue;
+    color: white;
+    display:none;
+
+    }
+    
+.mob li{
+    text-transform:uppercase;
+    text-align:center;
+    padding:2px;
+    cursor:pointer;
+   
+    }
+    
+.mob ul.active{
+    display:block;
 }
-.fa {
-  padding: 20px;
-  font-size: 35px;
-  width: 63px;
-  text-align: center;
-  text-decoration:dashed;
-  margin: 5px 2px;
-}
-.fa-facebook-square{
-  padding: 20px;
-  font-size: 30px;
-  width: 10px;
+fa {
+    padding: 20px;
+    font-size: 39px;
+    width: 65px;
+    text-align: center;
+    text-decoration:dashed;
+    margin: 5px 2px;
+  }
   
-  text-align: center;
-  text-decoration:dashed;
-  margin: 5px 2px;
-}
-.fa-facebook-square{
+  .fa-facebook-square{
+    padding: 10px;
+    font-size: 25px;
+    width: 35px;
+    
+    text-align: center;
+    text-decoration:dashed;
+    margin: 5px 2px;
+  }
+  
+  .fa-facebook-square{
+  
+    color: navy;
+  }
 
-  color: white;
-
-}
-.fa-facebook{
-  background: #3b5998;
-  color: white;
-}
-.fa-youtube{
-  background: #bb0000;
-}
-.fa-twitter{
-  background: #55acee;
-}
-.fa-instagram{
-  background:black;
-}
-.fa-whatsapp{
-  background:green;
-}
-.fa-google{
-  background:black;
-}
+  .fa-facebook-square:hover{
+    background-color:black;
+    color:purple;
+  }
+  Form{
+    font-size:35px;
+    text-align:centre;
+    background-color:yellow;
+    }
+    h3{
+    background-color:black;
+    }
+    BR{
+    font-size:33px;
+    }
+    input{
+    font-size:30px;
+    box-size:30px;
+    
+    }
+    radio button{
+    font-size:32px;
+    }
